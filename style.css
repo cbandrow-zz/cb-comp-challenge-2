@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Exo+2:400,600,700|Ubuntu:300,400');
+/*Color Scheme One*/
+/*#917370
+#451713
+#C49B97
+#CE6361
+#453535*/
+
+/*Color Scheme Two*/
+/*#454242
+#85807F
+#C4BEBC
+#D1CAC8
+#ABA5A4*/
+
+body{
+  background-color: #efefef;
+}
+
+header{
+  background-color:
+}
+
+.card{
+  font-family: "Ubuntu", sans-serif;
+  width: 300px;
+  min-height: 380px;
+  background-color: #fffeee;
+}
