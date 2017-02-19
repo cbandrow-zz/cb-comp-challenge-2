@@ -423,19 +423,14 @@ br{
 
   }
   ul img{
-    vertical-align: middle;
     width: 30px;
-    justify-content: center;
   }
 
   .admin-large{
-    margin-top: 10px;
-    margin-bottom: 5px;
+    margin-top: 15px;
     margin-right: 20px;
-    font-size: 16px;
     display: block;
     text-align: right;
-    color: #d34848;
   }
 
   .admin-small{
@@ -443,34 +438,22 @@ br{
   }
 
   .admin-large p {
-    font-size: 14px;
-    margin: 0px;
+    font-size: 15px;
   }
 
   div{
-    padding: 0px;
-    margin: 0px;
     vertical-align: none;
     justify-content: none;
-    font-weight: 300;
   }
 
   div img{
-    vertical-align: bottom;
-    justify-content: center;
     width: 22px;
   }
 
   li{
-    display: inline-block;
-    text-align: center;
-    color: #A7A9AA;
     margin-top: 15px;
     margin-left: 0px;
-    margin-right: 10px;
+    margin-right: 40px;
     font-size: 14px;
-  }
-  li:last-child{
-    margin-right:0px;
   }
 }
