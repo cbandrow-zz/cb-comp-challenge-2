@@ -1,12 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu:300,400,700');
-/*Color Scheme One*/
-/*#333333
-#555555
-#B3B6B7
-#EEE5E9
-#d34848*/
 
-/*Color Scheme Two*/
+/*Color Scheme Used*/
 /*#d34848
 #555555
 #9A9D9E
@@ -14,56 +8,69 @@
 #CCC7c7
 #dddBDB*/
 
+
+/*----Universal----*/
+*{
+  font-family: "Ubuntu", sans-serif;
+}
+/*----Structure-----*/
+
+
+html{
+  /*width: 100%;*/
+  height: 100%;
+}
 body{
   background-color: #CCC7c7;
   width: 100%;
 }
 
-.logo {
-  width: 130px;
+header{
+  background-color: #444444;
+  width: 100%;
 }
 
 main{
-  font-family: "Ubuntu", sans-serif;
-  color: #A7A9AA;
   align-content: center;
   align-items: center;
+  color: #A7A9AA;
   justify-content: center;
-  text-align: center;
   margin-left: auto;
   margin-right: auto;
+  height: auto;
   max-width: 1250px;
+  text-align: center;
 }
 
 .nav{
+  align-items: center;
+  background-color: #444444;
   display: flex;
   flex-direction: column-reverse;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
   height: 140px;
-  background-color: #444444;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1250px;
+  width: 100%;
 }
 
 .card{
-  text-align: left;
-  display: inline-block;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-top: 7px;
-  margin-bottom: 7px;
-  font-family: "Ubuntu", sans-serif;
-  width: 280px;
-  min-height: 390px;
   background-color: #dddBDB;
   box-shadow: 0px 0px 10px #666666;
+  display: inline-block;
+  font-family: "Ubuntu", sans-serif;
+  margin: 7px 10px 7px 10px;
+  min-height: 400px;
+  text-align: left;
+  width: 280px;
 }
 
 .card-top{
-  width: 100%;
-  height: 140px;
   background-size: cover;
-  margin-bottom: 13px;
+    height: 140px;
+    margin-bottom: 13px;
+  width: 100%;
 }
 
 .card-content{
@@ -73,68 +80,60 @@ main{
 .card-content p{
   color: #9A9D9E;
   font-size: 12px;
-  margin-top: 1px;
-  margin-left: 10px;
-  margin-bottom: 16px;
+  margin: 1px 0px 16px 10px;
 }
 
 div{
-  padding: 0px;
-  margin: 0px;
-  vertical-align: middle;
-  justify-content: center;
   font-weight: 300;
+  justify-content: center;
+  margin: 0px;
+  padding: 0px;
+  vertical-align: middle;
 }
 
 div img{
-  vertical-align: bottom;
   justify-content: center;
   width: 20px;
+  vertical-align: bottom;
 }
 
 .card-top img{
   display: inline-block;
-  margin-top: 13px;
-  margin-left: 10px;
+  margin: 13px 0px 0px 10px;
   width: 20%;
 }
 
 .link{
-  display: flex;
-  justify-content: left;
   align-content: center;
+  background-color: #CCC7c7;
+  display: flex;
+  height: auto;
+  justify-content: left;
   margin-left: auto;
   margin-right: auto;
-  width: 260px;
-  height: auto;
   min-height: 50px;
-  background-color: #CCC7c7;
-  hyphens: auto;
+  width: 260px;
   word-break: break-word;
-
 }
 
 
 .views{
-  position: relative;
-  float: right;
-  margin-top: 13px;
-  margin-right: 10px;
   align-content: right;
-  text-align: center;
   color: #dddBDB;
   display: inline-block;
+  float: right;
   font-size: 12px;
-  background-blend-mode: none;
-  -webkit-background-blend-mode: none, none;
+  margin: 13px 10px 0px 0px;
+  position: relative;
+  text-align: center;
 }
 
 .bg-global{
-  background-color: rgba(155,155,155,1);
-  -webkit-background-size: cover;
-  background-size: cover;
   background-blend-mode: multiply;
+  background-color: rgba(155,155,155,1);
+  background-size: cover;
   -webkit-background-blend-mode: multiply, multiply;
+  -webkit-background-size: cover;
 }
 
 #header1{
@@ -142,7 +141,7 @@ div img{
 }
 
 #header2{
-background-image: url("images/stormtrooper2.jpg");
+  background-image: url("images/stormtrooper2.jpg");
 }
 
 #header3{
@@ -171,13 +170,10 @@ background-image: url("images/stormtrooper2.jpg");
 
 a{
   color: #9A9D9E;
-  text-decoration: none;
   font-size: 13px;
-  margin-left: 15px;
-  margin-top: 10px;
-  margin-right: 15px;
-  margin-bottom: 10px;
   hyphens: auto;
+  margin: 10px 15px 10px 15px;
+  text-decoration: none;
 }
 a:hover{
   color: #555555;
@@ -185,92 +181,82 @@ a:hover{
 }
 
 h1{
-  font-size: 26px;
-  text-align: left;
-  margin-left: 20px;
   color: #555555;
+  font-size: 26px;
+  margin-left: 20px;
+  text-align: left;
 }
 
 h2{
-  margin-top: 2px;
   font-size: 34px;
   font-weight: 300;
+  margin-top: 2px;
 }
 
 h3{
   font-size: 17px;
   font-weight: 300;
-  margin-top: 0px;
-  margin-left: 10px;
-  margin-bottom: 1px;
+  margin: 0px 0px 1px 10px;
 }
 
 h4{
+  font-size: 13px;
   font-weight: 300;
   margin: 0px;
-  font-size: 13px;
 }
 
 .titles{
   font-size: 12px;
-  margin-top: 15px;
-  margin-left: 10px;
-  margin-bottom: 3px;
+  margin: 15px 0px 3px 10px;
 }
 
 .attach{
-  margin-top: 0px;
-  margin-left: 12px;
-  font-size: 34px;
   color: #d34848;
+  font-size: 34px;
+  margin: 0px 0px 0px 12px;
 }
 
 ul{
-  padding: 0px;
   margin: 0px;
+  padding: 0px;
 
 }
 ul img{
-  vertical-align: middle;
-  width: 22px;
   justify-content: center;
+  width: 22px;
+  vertical-align: middle;
+}
+
+.logo {
+  width: 130px;
 }
 
 .admin-large{
-  margin-top: 10px;
-  margin-bottom: 5px;
-  font-size: 16px;
-  display: none;
-  text-align: center;
   color: #d34848;
+  display: none;
+  font-size: 16px;
+  margin: 10px 0px 5px 0px;
+  text-align: center;
 }
 
 .admin-small{
-  margin-top: 10px;
-  margin-bottom: 5px;
-  display: inline-block;
-  text-align: center;
   color: #d34848;
+  display: inline-block;
+  margin: 10px 0px 5px 0px;
+  text-align: center;
 }
 
-.admin-large p {
-  font-size: 14px;
-  margin: 0px;
-}
-
-.admin-small p {
+.admin-large p, .admin-small p {
   font-size: 14px;
   margin: 0px;
 }
 
 li{
-  display: inline-block;
-  text-align: center;
   color: #A7A9AA;
-  margin-top: 15px;
-  margin-left: 0px;
-  margin-right: 10px;
+  display: inline-block;
   font-size: 10px;
+  margin: 15px 10px 0px 0px;
+  text-align: center;
 }
 li:last-child{
   margin-right:0px;
@@ -303,42 +289,17 @@ br{
     width: 20%;
   }
 
-  h1{
-    font-size: 26px;
-    text-align: left;
-    margin-left: 20px;
-    color: #555555;
-  }
-
-  ul{
-
-    justify-content: space-around;
-  }
-
   ul img{
+      justify-content: center;
+      width: 32px;
     vertical-align: middle;
-    width: 32px;
-    justify-content: center;
-  }
-
-  #admin{
-    /*font-size: 16px;*/
-  }
-
-  #admin p{
-    font-size: 18px;
-  }
-
-  #large{
-    display: none;
   }
 
   li{
-    margin-top: 15px;
-    margin-left: 0px;
-    margin-right: 50px;
     font-size: 16px;
+    margin: 15px 50px 0px 0px;
   }
+
   li:last-child{
     margin-right:0px;
   }
@@ -346,90 +307,46 @@ br{
 }
 
 @media screen and (min-width: 768px){
-  body{
-    background-color: #CCC7c7;
-    width: 100%;
-  }
 
-  .logo {
-    position: relative;
-    display: inline-block;
-    float: right;
-    margin-top: 45px;
-    margin-right: 20px;
-    width: 170px;
+  header{
+    display: block;
+    padding-top: 20px;
+    width: 100%;
   }
 
   .nav{
-    /*flex-direction: column-reverse;*/
-    justify-content: none;
-    align-items: none;
-    display: inline-block;
-    width: 100%;
-    height: 140px;
-    background-color: #444444;
+    display: block;
+    height: 150px;
+    max-width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
-  a{
-    color: #9A9D9E;
-    text-decoration: none;
-    font-size: 13px;
-    margin-left: 15px;
-    margin-top: 10px;
-    margin-right: 15px;
-    margin-bottom: 10px;
-    hyphens: auto;
-  }
-  a:hover{
-    color: #555555;
-    text-decoration: underline;
-  }
+
 
   h1{
-    font-size: 26px;
-    text-align: left;
-    margin-left: 20px;
-    color: #555555;
-  }
-
-  h2{
-    margin-top: 2px;
-    font-size: 34px;
-    font-weight: 300;
-  }
-
-  h3{
-    font-size: 17px;
-    font-weight: 300;
-    margin-top: 0px;
-    margin-left: 10px;
-    margin-bottom: 1px;
-  }
-
-  h4{
-    font-weight: 300;
-    margin: 0px;
-    font-size: 13px;
+    font-size: 35px;
   }
 
   ul{
     display: inline-block;
-    width: 500px;
-    padding: 0px;
-    margin-top: 50px;
-    margin-left: 20px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-
+    margin: 50px 0px 0px 25px;
+    width: 540px;
   }
   ul img{
-    width: 30px;
+    width: 40px;
+  }
+
+  li{
+    font-size: 17px;
+    margin: 15px 40px 0px 0px;
   }
 
   .admin-large{
-    margin-top: 15px;
-    margin-right: 20px;
+    color: #d34848;
     display: block;
+    font-size: 16px;
+    margin: 0px 25px 5px 0px;
     text-align: right;
   }
 
@@ -438,22 +355,20 @@ br{
   }
 
   .admin-large p {
-    font-size: 15px;
+    font-size: 18px;
   }
 
-  div{
-    vertical-align: none;
-    justify-content: none;
+  .logo {
+    display: inline-block;
+    float: right;
+    margin: 45px 25px 0px 0px;
+    position: relative;
+    width: 170px;
   }
 
   div img{
-    width: 22px;
+    width: 26px;
   }
 
-  li{
-    margin-top: 15px;
-    margin-left: 0px;
-    margin-right: 40px;
-    font-size: 14px;
-  }
+
 }
