@@ -196,12 +196,13 @@ h4{
 
 ul{
   margin: 0px;
+  margin-top: 10px;
   padding: 0px;
 }
 
 li{
   color: #A7A9AA;
-  display: inline-block;
+  display: none;
   font-size: 10px;
   margin: 15px 10px 0px 0px;
   text-align: center;
@@ -212,9 +213,12 @@ li:last-child{
 }
 
 /*------Image Styling-----*/
+
 ul img{
   justify-content: center;
-  width: 22px;
+  margin-left: 30px;
+  margin-right: 30px;
+  width: 40px;
   vertical-align: middle;
 }
 
@@ -265,6 +269,7 @@ br{
   }
 
   li{
+    display: inline-block;
     font-size: 16px;
     margin: 15px 50px 0px 0px;
   }
@@ -282,9 +287,15 @@ br{
     width: 20%;
   }
 
+  ul{
+    margin-top: 0px;
+  }
+
   ul img{
-      justify-content: center;
-      width: 32px;
+    margin-left: 0px;
+    margin-right: 0px;
+    justify-content: center;
+    width: 32px;
     vertical-align: middle;
   }
 
@@ -318,11 +329,15 @@ br{
     margin: 50px 0px 0px 25px;
     width: 540px;
   }
+
   ul img{
+    margin-left: 0px;
+    margin-right: 0px;
     width: 40px;
   }
 
   li{
+    display: inline-block;
     font-size: 17px;
     margin: 15px 40px 0px 0px;
   }
