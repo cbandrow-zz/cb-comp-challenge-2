@@ -52,6 +52,10 @@ main{
   min-height: 400px;
   text-align: left;
   width: 280px;
+  transition: box-shadow .25s ease;
+}
+.card:hover{
+  box-shadow: 0px 0px 15px #222222;
 }
 
 .card-top{
@@ -206,6 +210,10 @@ li{
   font-size: 10px;
   margin: 15px 10px 0px 0px;
   text-align: center;
+  transition: color .25s ease;
+}
+li:hover{
+  color: #dddBDB;
 }
 
 li:last-child{
@@ -332,7 +340,7 @@ br{
 
   ul img{
     margin-left: 0px;
-    margin-right: 0px;
+    margin-right: 5px;
     width: 40px;
   }
 
