@@ -6,7 +6,7 @@ This project was created in order to match a design comp. Most comps are to be e
 ---
 ##### Original Comp Outline
 
-![Original Comp Outline](cb-comp-challenge-2/images/static-comp-challenge-2.jpg)
+![Original Comp Outline](https://github.com/cbandrow/cb-comp-challenge-2/blob/master/images/static-comp-challenge-2.jpg)
 
 ---
 
@@ -14,9 +14,9 @@ This project was created in order to match a design comp. Most comps are to be e
 
 Desktop Site:
 
-![Desktop Version](cb-comp-challenge-2/images/static-comp2-desktop.png)
+![Desktop Version](https://github.com/cbandrow/cb-comp-challenge-2/blob/master/images/static-comp2-desktop.png)
 ---
 Mobile Site:
 
-![Mobile Version](cb-comp-challenge-2/images/static-comp2-mobile.png)
+![Mobile Version](https://github.com/cbandrow/cb-comp-challenge-2/blob/master/images/static-comp2-mobile.png)
 ---
