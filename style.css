@@ -1,25 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu:300,400,700');
 
-/*Color Scheme Used*/
-/*#d34848
-#555555
-#9A9D9E
-#A7A9AA
-#CCC7c7
-#dddBDB*/
-
-
 /*----Universal----*/
 *{
   font-family: "Ubuntu", sans-serif;
 }
-/*----Structure-----*/
 
+/*----Structure/Box Model-----*/
 
-html{
-  /*width: 100%;*/
-  height: 100%;
-}
 body{
   background-color: #CCC7c7;
   width: 100%;
@@ -34,10 +21,10 @@ main{
   align-content: center;
   align-items: center;
   color: #A7A9AA;
+  height: auto;
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
-  height: auto;
   max-width: 1250px;
   text-align: center;
 }
@@ -68,19 +55,13 @@ main{
 
 .card-top{
   background-size: cover;
-    height: 140px;
-    margin-bottom: 13px;
+  height: 140px;
+  margin-bottom: 13px;
   width: 100%;
 }
 
 .card-content{
   color: #555555;
-}
-
-.card-content p{
-  color: #9A9D9E;
-  font-size: 12px;
-  margin: 1px 0px 16px 10px;
 }
 
 div{
@@ -89,18 +70,6 @@ div{
   margin: 0px;
   padding: 0px;
   vertical-align: middle;
-}
-
-div img{
-  justify-content: center;
-  width: 20px;
-  vertical-align: bottom;
-}
-
-.card-top img{
-  display: inline-block;
-  margin: 13px 0px 0px 10px;
-  width: 20%;
 }
 
 .link{
@@ -116,7 +85,6 @@ div img{
   word-break: break-word;
 }
 
-
 .views{
   align-content: right;
   color: #dddBDB;
@@ -128,8 +96,10 @@ div img{
   text-align: center;
 }
 
+/*-------Header Styling------*/
 .bg-global{
   background-blend-mode: multiply;
+  padding: none;
   background-color: rgba(155,155,155,1);
   background-size: cover;
   -webkit-background-blend-mode: multiply, multiply;
@@ -168,6 +138,7 @@ div img{
   background-image: url("images/stormtrooper8.jpg");
 }
 
+/*-----Text Styling------*/
 a{
   color: #9A9D9E;
   font-size: 13px;
@@ -216,11 +187,30 @@ h4{
   margin: 0px 0px 0px 12px;
 }
 
+.card-content p{
+  color: #9A9D9E;
+  font-size: 12px;
+  margin: 1px 0px 16px 10px;
+}
+
 ul{
   margin: 0px;
   padding: 0px;
-
 }
+
+li{
+  color: #A7A9AA;
+  display: inline-block;
+  font-size: 10px;
+  margin: 15px 10px 0px 0px;
+  text-align: center;
+}
+
+li:last-child{
+  margin-right:0px;
+}
+
+/*------Image Styling-----*/
 ul img{
   justify-content: center;
   width: 22px;
@@ -232,11 +222,7 @@ ul img{
 }
 
 .admin-large{
-  color: #d34848;
   display: none;
-  font-size: 16px;
-  margin: 10px 0px 5px 0px;
-  text-align: center;
 }
 
 .admin-small{
@@ -251,15 +237,16 @@ ul img{
   margin: 0px;
 }
 
-li{
-  color: #A7A9AA;
-  display: inline-block;
-  font-size: 10px;
-  margin: 15px 10px 0px 0px;
-  text-align: center;
+div img{
+  justify-content: center;
+  width: 20px;
+  vertical-align: bottom;
 }
-li:last-child{
-  margin-right:0px;
+
+.card-top img{
+  display: inline-block;
+  margin: 13px 0px 0px 10px;
+  width: 20%;
 }
 
 #nav-active{
@@ -272,12 +259,17 @@ br{
 
 @media screen and (min-width: 550px) {
 
-  .logo {
-    width: 180px;
-  }
-
   .nav{
     height: 140px;
+  }
+
+  li{
+    font-size: 16px;
+    margin: 15px 50px 0px 0px;
+  }
+
+  li:last-child{
+    margin-right:0px;
   }
 
   div img{
@@ -295,22 +287,15 @@ br{
     vertical-align: middle;
   }
 
-  li{
-    font-size: 16px;
-    margin: 15px 50px 0px 0px;
+  .logo {
+    width: 180px;
   }
-
-  li:last-child{
-    margin-right:0px;
-  }
-
 }
 
 @media screen and (min-width: 768px){
 
   header{
     display: block;
-    padding-top: 20px;
     width: 100%;
   }
 
@@ -320,9 +305,8 @@ br{
     max-width: 1250px;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 20px;
   }
-
-
 
   h1{
     font-size: 35px;
