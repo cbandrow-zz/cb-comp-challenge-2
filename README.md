@@ -1,4 +1,4 @@
-# Static Comp Challenge 1
+# Static Comp Challenge 2
 ---
 
 This project was created in order to match a design comp. Most comps are to be exactly as the designer envisioned. However, for this comp, we were given free reign to use whatever color scheme (so long as it looked good), copy, images, and icons that we felt would best contribute to the comp. This design used the idea of cards to display information. Cards were designed to be responsive for mobile and tablet use, and fit neatly in rows of four on a full screen desktop sized page. On mobile, each card fits on the page at a time, and the rest of the cards can be viewed by scrolling down. 
